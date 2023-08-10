@@ -1,0 +1,45 @@
+section {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.selected-number {
+  padding: 20px;
+  font-size: 30px;
+  border: 1px solid black;
+  height: 50px;
+  width: 50px;
+  margin: 20px auto 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.arrow {
+  padding: 9px;
+  border: 1px solid black;
+  background-color: beige;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.arrw1 {
+  margin-right: 5px;
+}
+
+.arrw2 {
+  margin-left: 5px;
+}
+.page-number {
+  color: antiquewhite;
+  background-color: cornflowerblue;
+  padding: 10px;
+  flex-basis: 30px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.current-page {
+  box-shadow: 2px 4px 5px #777;
+}
